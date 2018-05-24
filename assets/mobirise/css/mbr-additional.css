@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -20,7 +21,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -28,10 +29,10 @@ body {
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 2.56rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -66,9 +67,9 @@ body {
     line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -1378,9 +1379,9 @@ body {
   background-image: url("../../../assets/images/mbr-1-1620x1080.jpg");
 }
 .cid-qSYQd3StHa {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #f9f9f9;
+  padding-top: 75px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
 }
 .cid-qSYQd3StHa h4 {
   font-weight: 500;
@@ -1397,8 +1398,16 @@ body {
 .cid-qSYQd3StHa .card-wrapper {
   height: 100%;
 }
-.cid-qSYOy0yuAt {
+.cid-qSZorKDKUo {
   padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qSZorKDKUo .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qSYOy0yuAt {
+  padding-top: 30px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
@@ -1429,6 +1438,23 @@ body {
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-qSZkFJzjqF {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qSZkFJzjqF .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qSZkFJzjqF .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-qSZkFJzjqF SPAN {
+  color: #767676;
+}
+.cid-qSZkFJzjqF .mbr-section-subtitle B {
+  color: #000000;
 }
 .cid-qSYOTWsXOW {
   padding-top: 90px;
@@ -1524,39 +1550,39 @@ body {
     padding-left: 30px;
   }
 }
-.cid-qSYRISL7uY {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
+.cid-qSZiEmBmE9 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
 }
-.cid-qSYRISL7uY .row-links {
-  width: 100%;
-  justify-content: center;
+@media (max-width: 767px) {
+  .cid-qSZiEmBmE9 .media-wrap {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }
-.cid-qSYRISL7uY .social-row {
-  width: 100%;
-  justify-content: center;
+.cid-qSZiEmBmE9 .media-wrap .mbr-iconfont-logo {
+  font-size: 7rem;
+  color: #f36;
 }
-.cid-qSYRISL7uY .media-container-row {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.cid-qSZiEmBmE9 .media-wrap img {
+  height: 6rem;
 }
-.cid-qSYRISL7uY .media-container-row .foot-menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 0;
+.cid-qSZiEmBmE9 .mbr-text {
+  color: #767676;
 }
-.cid-qSYRISL7uY .media-container-row .foot-menu li {
-  padding: 0 1rem 1rem 1rem;
+@media (max-width: 767px) {
+  .cid-qSZiEmBmE9 .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }
-.cid-qSYRISL7uY .media-container-row .foot-menu li p {
-  margin: 0;
+.cid-qSZiEmBmE9 .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #000;
+  opacity: .05;
 }
-.cid-qSYRISL7uY .media-container-row .social-list {
+.cid-qSZiEmBmE9 .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -1565,32 +1591,25 @@ body {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
 }
-.cid-qSYRISL7uY .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
+.cid-qSZiEmBmE9 .footer-lower .social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #232323;
 }
-.cid-qSYRISL7uY .media-container-row .social-list .soc-item {
+.cid-qSZiEmBmE9 .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.cid-qSYRISL7uY .media-container-row .social-list a {
+.cid-qSZiEmBmE9 .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.cid-qSYRISL7uY .media-container-row .social-list a:hover {
+.cid-qSZiEmBmE9 .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .cid-qSYRISL7uY .media-container-row .social-list {
+  .cid-qSZiEmBmE9 .footer-lower .social-list {
     justify-content: center;
     -webkit-justify-content: center;
   }
-}
-.cid-qSYRISL7uY .media-container-row .row-copirayt {
-  word-break: break-word;
-  width: 100%;
-}
-.cid-qSYRISL7uY .media-container-row .row-copirayt p {
-  width: 100%;
 }
